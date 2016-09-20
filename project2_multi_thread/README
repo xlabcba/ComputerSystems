@@ -1,0 +1,10 @@
+Operate the program as following:
+1. Open the terminal
+2. go to the directory containing the program (by $ cd …)
+3. type command “make clean”
+4. type command “make build”
+5. type command “make check T=t X=x N=n” (example: “make check T=5 X=2 N=12”)
+   (t is number of threads you want to create in thread pool (> 0)
+    x is power x of e^x you want to calculate
+    n is the number of terms you want to expend to estimate the e^x)
+6. get the result
