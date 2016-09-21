@@ -1,10 +1,13 @@
-Introduction:
+<snippet>
+  <content><![CDATA[
+# ${1:Exponential Function Calculator by Multi-process}
+
+## Introdunction
+
 This product aims at building an exponential function calculator by using master-worker architecture. 
 
 The exponential function can be expressed as following:
-<br>
-<img src=“https://github.com/xlabcba/ComputerSystems/tree/master/project2_multi_process/figures/equation.png” />
-<br>
+![alt tag](ComputerSystems/project2_multi_process/figures/equation.png)
 
 The master is launched using the following command (e^x for n in [0..n]):
 $ ./master --worker_path ./worker --wait_mechanism MECHANISM -x 2 -n 12
@@ -21,8 +24,8 @@ Following mechanisms in the Master have been implemented:
 3. Poll: The above using poll system call.
 4. Epoll: The above using epoll system call.
 
+## Run Instruction
 
-Run Instruction:
 1. Open the terminal
 2. Go to the directory containing the program
 3. Type command “make clean”
@@ -34,3 +37,6 @@ Run Instruction:
 6. get result
 
 * For select mechanism, the limitation would be 1024 for n
+]]></content>
+  <tabTrigger>readme</tabTrigger>
+</snippet>
