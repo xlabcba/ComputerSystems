@@ -1,22 +1,26 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Exponential Function Calculator by Multi-process}
+# Exponential Function Calculator by Multi-process
 
 ## Introdunction
 
 This product aims at building an exponential function calculator by using master-worker architecture. 
 
 The exponential function can be expressed as following:
-![alt tag](ComputerSystems/project2_multi_process/figures/equation.png)
+<img src="https://github.com/xlabcba/ComputerSystems/blob/master/project2_multi_process/figures/equation.png"/>
 
 The master is launched using the following command (e^x for n in [0..n]):
+、、、
 $ ./master --worker_path ./worker --wait_mechanism MECHANISM -x 2 -n 12
+、、、
 
 The master spawns n child worker processes, each of which computers x^n / n!:
+、、、
 e.g. worker 3: 2^3 / 3! : 1.3333
+、、、
 
 The worker is individually testable:
+、、、
 $ ./worker -x 2 -n 3 x^n / n! : 1.3333
+、、、
 
 Following mechanisms in the Master have been implemented:
 1. Sequential: first worker, followed by second, third, and so on.
@@ -36,7 +40,4 @@ Following mechanisms in the Master have been implemented:
            n is the number of terms you want to expend to estimate the corresponding e^x)
 6. get result
 
-* For select mechanism, the limitation would be 1024 for n
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+(For select mechanism, the limitation would be 1024 for n)

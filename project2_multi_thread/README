@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Exponential Function Calculator by Threadpool}
+# Exponential Function Calculator by Threadpool
 
 ## Introdunction
 
@@ -19,7 +17,4 @@ Only difference is calculating the exponential function by using multi-thread, w
            n is the number of terms you want to expend to estimate the corresponding e^x)
 6. get result
 
-* For select mechanism, the limitation would be 1024 for n
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+(For select mechanism, the limitation would be 1024 for n)

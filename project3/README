@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:mini-DMTCP}
+# malloc Library (UNIX/Linux)
 
 ## Introdunction
 
@@ -38,7 +36,4 @@ I use the same struct for both large block and buddy block, and use magic to dif
 2. Go to project file folder
 2. Type make clean
 3. Type make
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 

@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:mini-DMTCP}
+# mini-DMTCP
 
 ## Introdunction
 
@@ -12,6 +10,3 @@ This project aims at building a mini-DMTCP to achieve checkpoint-restart of an a
 2. go to the directory containing the program
 3. type command “make”
 4. get result
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
