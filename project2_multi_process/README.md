@@ -41,11 +41,7 @@ Following mechanisms in the Master have been implemented:
 4. Type command “make build”
 5. Type command “make check MECHANISM=m X=x N=n” 
 
-    (where m is one mechanism of sequential/select/poll/epoll
-
-           x is power x of e^x you want to calculate
-
-           n is the number of terms you want to expend to estimate the corresponding e^x)
+x
 
 6. get result
 

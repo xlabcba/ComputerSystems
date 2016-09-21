@@ -13,11 +13,11 @@ Only difference is calculating the exponential function by using multi-thread, w
 4. Type command “make build”
 5. Type command “make check MECHANISM=m X=x N=n” 
 
-    (where m is one mechanism of sequential/select/poll/epoll
+    m is one mechanism of sequential/select/poll/epoll
 
-           x is power x of e^x you want to calculate
+    x is power x of e^x you want to calculate
 
-           n is the number of terms you want to expend to estimate the corresponding e^x)
+    n is the number of terms you want to expend to estimate the corresponding e^x
 
 6. get result
 
